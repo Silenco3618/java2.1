@@ -3,10 +3,10 @@ public class Main {
         int sum = 1100; // Сумма пополнения//
         int bill = 100; //Сумма на счету//
         int billSum; //Сумма после пополнения//
-        boolean Sum = sum > 1000;
+        boolean sumAdd = sum > 1000;
         int bonus = 0;
         int bonusSum;
-        if (Sum) {
+        if (sumAdd) {
             bonusSum = (sum / bill + bonus);
             billSum = (sum + bill + bonusSum);
         } else {
